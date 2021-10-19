@@ -1,0 +1,14 @@
+
+  html, body {
+    height: 100vh;
+    background: #232427;
+    font-family: 'Balsamiq Sans', sans-serif;
+    color: aliceblue;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
