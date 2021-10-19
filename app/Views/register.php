@@ -16,28 +16,28 @@
 
 <body>
   <div class="container">
-
+<h1>ลงทะเบียนวิ่ง</h1>
     <div class="row">
       <div class="col-md-6">
-        <label for="inputFirstname" class="form-label">รหัสบัตรประชาชน</label>
-        <input type="text" name="Firstname" class="form-control" id="inputFirstname" ;">
+        <label for="ID_card" class="form-label">รหัสบัตรประชาชน</label>
+        <input type="text" name="ID_card" class="form-control" id="..." ;">
       </div>
       <div class="col-md-6">
-        <label for="inputLastname" class="form-label">ชื่อ</label>
-        <input type="text" name="Lastname" class="form-control" id="inputLastname" ;">
+        <label for="inputName" class="form-label">ชื่อ</label>
+        <input type="text" name="Name" class="form-control" id="..." ;">
       </div>
 
       <div class="col-md-6">
-        <label for="inputLastname" class="form-label">อายุ</label>
-        <input type="text" name="Lastname" class="form-control" id="inputLastname" ;">
+        <label for="inputAge" class="form-label">อายุ</label>
+        <input type="text" name="Age" class="form-control" id="..." ;">
       </div>
       <div class="col-md-6">
-        <label for="inputLastname" class="form-label">อีเมล์</label>
-        <input type="text" name="Lastname" class="form-control" id="inputLastname" ;">
+        <label for="inputEmail" class="form-label">อีเมล์</label>
+        <input type="text" name="Email" class="form-control" id="..." ;">
       </div>
       <div class="col-md-6">
-        <label for="inputLastname" class="form-label">ไอดีสมาชิก</label>
-        <input type="text" name="Lastname" class="form-control" id="inputLastname" ;">
+        <label for="inputID" class="form-label">ไอดีสมาชิก</label>
+        <input type="text" name="ID" class="form-control" id="..." ;">
       </div>
       <fieldset class="row mb-3">
         <legend class="col-form-label col-sm-2 pt-0">ประเภทการวิ่ง</legend>
@@ -67,11 +67,10 @@
             </label>
           </div>
         </div>
-        <div class="col-md-6">
-        <a class="btn btn-outline-success" href="/register">ลงทะเบียน</a>
-        <a class="btn btn-outline-danger" href="/index">ยกเลิก</a>
     </div>
       </fieldset>
+      <a class="btn btn-outline-success" href="/register">ลงทะเบียน</a>
+        <a class="btn btn-outline-danger" href="/index">ยกเลิก</a>
     </div>
   </div>
 
