@@ -17,63 +17,39 @@
 <body>
   <div class="container">
 <h1>ลงทะเบียนวิ่ง</h1>
+<form action="/add" method="POST" class="signin-form">
     <div class="row">
       <div class="col-md-6">
-        <label for="ID_card" class="form-label">รหัสบัตรประชาชน</label>
-        <input type="text" name="ID_card" class="form-control" id="..." ;">
+        <label for="id_card" class="form-label">รหัสบัตรประชาชน</label>
+        <input type="text" name="id_card" class="form-control" id="id_card" value="<?= set_value('id_card'); ?>">
       </div>
       <div class="col-md-6">
-        <label for="inputName" class="form-label">ชื่อ</label>
-        <input type="text" name="Name" class="form-control" id="..." ;">
-      </div>
-
-      <div class="col-md-6">
-        <label for="inputAge" class="form-label">อายุ</label>
-        <input type="text" name="Age" class="form-control" id="..." ;">
+        <label for="inputname" class="form-label">ชื่อ</label>
+        <input type="text" name="name" class="form-control" id="name" value="<?= set_value('name'); ?>">
       </div>
       <div class="col-md-6">
-        <label for="inputEmail" class="form-label">อีเมล์</label>
-        <input type="text" name="Email" class="form-control" id="..." ;">
+        <label for="inputage" class="form-label">อายุ</label>
+        <input type="text" name="age" class="form-control" id="age" value="<?= set_value('age'); ?>">
       </div>
       <div class="col-md-6">
-        <label for="inputID" class="form-label">ไอดีสมาชิก</label>
-        <input type="text" name="ID" class="form-control" id="..." ;">
+        <label for="inputemail" class="form-label">อีเมล์</label>
+        <input type="text" name="email" class="form-control" id="email" value="<?= set_value('email'); ?>">
       </div>
-      <fieldset class="row mb-3">
-        <legend class="col-form-label col-sm-2 pt-0">ประเภทการวิ่ง</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-            <label class="form-check-label" for="gridRadios1">
-              FUN RUN
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-            <label class="form-check-label" for="gridRadios2">
-              MINI MARATHON
-            </label>
-          </div>
-          <div class="form-check disabled">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-            <label class="form-check-label" for="gridRadios3">
-              VIP
-            </label>
-          </div>
-          <div class="form-check disabled">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-            <label class="form-check-label" for="gridRadios3">
-              Super VIP
-            </label>
-          </div>
-        </div>
-    </div>
-      </fieldset>
-      <a class="btn btn-outline-success" href="/register">ลงทะเบียน</a>
-        <a class="btn btn-outline-danger" href="/index">ยกเลิก</a>
+      <div class="col-md-6">
+        <label for="password" class="form-label">รหัสผ่าน</label>
+        <input type="password" name="password" class="form-control" id="password" value="<?= set_value('password'); ?>">
+      </div>
+      
+      
+     <div class="button">
+       <button type="submit" class="btn btn-primary">
+         บันทึกข้อมูล
+       </button>
+       
+     </div>
     </div>
   </div>
-
+</form>
 </body>
 
 </html>

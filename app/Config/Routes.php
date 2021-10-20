@@ -35,7 +35,9 @@ $routes->get('/', 'Home::index');
 $routes->get('/register', 'Register::index');
 $routes->get('/search', 'Search::index');
 
-$routes->get('/search', 'Search::searchMember');
+//$routes->get('/search', 'Search::searchMember');
+
+$routes->post('/add', 'Register::add');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
