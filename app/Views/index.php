@@ -32,8 +32,8 @@
     <div class="box">
       <div class="content">
         <h2>01</h2>
-        <h3>Card One</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+        <h3>FUN RUN</h3>
+        <p>คุณต้องการเข้าร่วมการวิ่งแบบ FUN RUN หรือไม่</p>
         <a href="/register">เข้าร่วม</a>
       </div>
     </div>
@@ -43,8 +43,8 @@
     <div class="box">
       <div class="content">
         <h2>02</h2>
-        <h3>Card Two</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+        <h3>MINI MARATHON</h3>
+        <p>คุณต้องการเข้าร่วมการวิ่งแบบ MINI MARATHON หรือไม่</p>
         <a href="/register">เข้าร่วม</a>
       </div>
     </div>
@@ -54,8 +54,8 @@
     <div class="box">
       <div class="content">
         <h2>03</h2>
-        <h3>Card Three</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+        <h3>VIP</h3>
+        <p>คุณต้องการเข้าร่วมการวิ่งแบบ VIP หรือไม่</p>
         <a href="/register">เข้าร่วม</a>
       </div>
     </div>
