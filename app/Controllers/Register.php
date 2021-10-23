@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\DataModel;
 
-//use App\Models\RegiModel;
+use App\Models\RegiModel;
 
 use CodeIgniter\Controller;
 
@@ -29,7 +29,7 @@ class Register extends Controller
         ];
         if ($this->validate($rules)) {
             $modelMember = new DataModel();
-            // $modelRegi = new RegiModel();
+            $modelRegi = new RegiModel();
             $data = [
                 'id_card' => $this->request->getVar('id_card'),
                 'name' => $this->request->getVar('name'),
@@ -38,16 +38,17 @@ class Register extends Controller
                 'password' => $this->request->getVar('password'),
             ];
 
-            // $data2 = [
-            //     'ID' => $this->request->getVar('ID'),
-            //     'member' => $this->request->getVar('member'),
-            //     'category_run' => $this->request->getVar('category_run'),
-            // ];
+            $data2 = [
+                'ID' => $this->request->getVar('ID'),
+                'member' => $this->request->getVar('member'),
+                'category_run' => $this->request->getVar('category_run'),
+            ];
         
             //var_dump($data);
            
-            // $modelRegi->insert($data2);
+            
             $modelMember->insert($data);
+            $modelRegi->insert($data2);
             return redirect()->to('/');
         }
     }

@@ -39,6 +39,35 @@
         <label for="password" class="form-label">รหัสผ่าน</label>
         <input type="password" name="password" class="form-control" id="password" value="<?= set_value('password'); ?>">
       </div>
+
+      <div class="col-md-6">
+        <label for="inputID" class="form-label">ไอดี</label>
+        <input type="text" name="ID" class="form-control" id="ID" value="<?= set_value('ID'); ?>">
+      </div>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">ประเภทการวิ่ง</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="category_run" id="category_run" value="1">
+              FUN RUN
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="category_run" id="category_run" value="2">
+              MINI MARATHON
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="category_run" id="category_run" value="3">
+              VIP
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="category_run" id="category_run" value="4">
+              Super VIP
+            </label>
+          </div>
+        </div>
       
       
      <div class="button">
